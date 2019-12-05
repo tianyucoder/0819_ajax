@@ -15,7 +15,6 @@ app.get('/get_verify_code',(req,res)=>{
   },1000)
 })
 
-
 app.listen(3000,(err)=>{
   if (err) console.log(err)
   else {

@@ -27,7 +27,7 @@
     * */
 
     //完整写法
-    /*$.ajax({
+    $.ajax({
       url:'http://localhost:3000/test_get',
       method:'get',
       data:{name:'kobe',age:18},
@@ -37,7 +37,7 @@
       error:(err)=>{
         console.log(err)
       }
-    })*/
+    })
 
     //精简写法
     $.get('http://localhost:3000/test_get',{name:'kobe',age:18},(data)=>{
